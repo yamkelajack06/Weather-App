@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Cloud Nimbus</title>
+    <link rel="icon" href="https://cdn-icons-png.flaticon.com/512/869/869869.png" type="image/png" />
+  </head>
+  <body>
+    <aside id = "aside1">
+        <div class="navigation"></div>
+    </aside>
+    <header>
+      <form action="#">
+        <input type="text" id="location" placeholder="Enter location..." />
+        <button type="submit">Enter</button>
+      </form>
+    </header>
+
+    <aside id = "aside2">
+      <div class="weather-container">
+
+      </div>
+    </aside>
+    <main>
+        <div class="curr-weather">
+            <div class="weather">
+                <h1>City</h1>
+                <p>Chances of rain</p>
+                <h1 id = "temp" >37</h1>
+            </div>
+
+            <div class="icon">
+              <img src="./icons/icons8-partly-cloudy-day-48.png" alt="weather icon">
+            </div>
+        </div>
+        <div class="today-forecast">
+            <h5>Today's weather</h5>
+            <div class="weekly-weather">
+                <div class="weather-cards left">
+                  <h5>23:33</h5>
+                  <img src="./icons/icons8-cloud-48.png" alt="weather icon">
+                  <h5>47</h5>
+                </div>
+                <div class="weather-cards"></div>
+                <div class="weather-cards"></div>
+                <div class="weather-cards"></div>
+                <div class="weather-cards"></div>
+                <div class="weather-cards" id = "right"></div>
+            </div>
+        </div>
+        <div class="stats">
+
+        </div>
+    </main>
+  </body>
+</html>
